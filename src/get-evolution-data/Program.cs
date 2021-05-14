@@ -64,6 +64,7 @@ namespace get_evolution_data
 
     public class GameMasterEntry
     {
+        public string templateId { get; set; }
         public GameMasterEntryPokemon pokemon { get; set; }
     }
 
